@@ -1,0 +1,118 @@
+body {
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  background-image: url(./alfons-morales-YLSwjSy7stw-unsplash.jpg);
+  background-size: 100%;
+  color: white;
+  box-sizing: border-box;
+}
+#title {
+  font-size: 40px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-left: 23vw;
+}
+.header {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  height: 150px;
+  width: 70vw;
+  margin-left: 13vw;
+  background-color: #a57352;
+  border-radius: 10px;
+  border: 2px solid #012626;
+  box-shadow: 3px 3px 25px 2px #012626;
+}
+#btn-back {
+  margin-left: 30px;
+}
+#btn-back2 {
+  font-size: 15px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+  width: 100px;
+  height: 35px;
+  border-radius: 10px;
+  border: 2px solid #012626;
+  box-shadow: 3px 3px 25px 2px #012626;
+  background-color: #f5dbb3;
+}
+#btn-back2:hover {
+  transform: scale(1.03);
+  box-shadow: 3px 3px 40px 2px #012626;
+}
+.card {
+  width: 30vw;
+  height: 25vh;
+  border-radius: 10px;
+  border: 2px solid #012626;
+  box-shadow: 3px 3px 25px 2px #012626;
+}
+.card:hover {
+  transform: scale(1.03);
+}
+#book-case {
+  margin: 0;
+  margin-top: 3vh;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  height: auto;
+  width: 70vw;
+  margin-left: 13vw;
+  background-color: #674833;
+  border-radius: 10px;
+  border: 2px solid #012626;
+  box-shadow: 3px 3px 25px 2px #012626;
+}
+img {
+  width: 80px;
+  height: 80px;
+}
+.item {
+  width: 60vw;
+  height: auto;
+  display: flex;
+
+  align-items: center;
+  border-radius: 10px;
+  border: 2px solid #012626;
+  box-shadow: 3px 3px 25px 2px #012626;
+  margin-left: 5vw;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.item:hover {
+  transform: scale(1.01);
+  background-color: #f5dbb3;
+  color: black;
+}
+.book-img {
+  margin-left: 20px;
+}
+.book-title {
+  margin-left: 20px;
+  margin-bottom: -10px;
+}
+.book-subt {
+  margin-left: 30px;
+  align-self: flex-end;
+  margin-bottom: 10px;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+.search-icon {
+  font-size: 22px;
+  margin-left: 550px;
+  margin-top: 15px;
+}
+#search {
+  width: 250px;
+  height: 22px;
+}
+
+.hidden {
+  display: none;
+}
+.info-margin {
+  margin-left: 100px;
+}

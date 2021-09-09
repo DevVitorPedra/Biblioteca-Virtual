@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  background-image: url(./alfons-morales-YLSwjSy7stw-unsplash.jpg);
+  background-size: 100%;
+  color: white;
+  align-items: center;
+}
+h1 {
+  font-size: 40px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.div {
+  box-shadow: 10px 10px 10px 10px black;
+  border: 3px solid #b77a43;
+  width: 500px;
+  padding: 10px;
+  border-radius: 12px;
+  margin-left: 450px;
+  background-color: #674833;
+}
+label {
+  font-size: 20px;
+  margin-left: 40px;
+}
+.hidden {
+  display: none;
+}
+input {
+  background-color: #f5dbb3;
+  position: absolute;
+  right: 35%;
+}
+#btn-cad {
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  width: 70%;
+  height: 30px;
+  margin-left: 75px;
+  border-radius: 12px;
+  background-color: #f29544;
+}
+#btn-cad:hover,
+#btn-acervo:hover {
+  transform: scale(1.04);
+  background-color: #f5dbb3;
+  box-shadow: 0 0 20px 5px black;
+}
+#btn-acervo {
+  height: 30px;
+  width: 140px;
+  font-size: 25px;
+  border: 2px solid black;
+  border-radius: 12px;
+  background-color: #f29544;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  opacity: 0.7;
+}
+
+p {
+  margin-left: 50px;
+  text-decoration: underline;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#btn-back {
+  font-size: 25px;
+  border: 2px solid black;
+  border-radius: 12px;
+  background-color: #bf5934;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  opacity: 0.7;
+}
+#btn-back:hover {
+  box-shadow: 0 0 32px 1px black;
+  transform: scale(1.04);
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+#ano {
+  width: 163px;
+}

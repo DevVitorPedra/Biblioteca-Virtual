@@ -10,7 +10,6 @@ const url = document.getElementById("url");
 const btnAcervo = document.getElementById("btn-acervo");
 const mainDiv = document.getElementById("main-div");
 const mainDiv2 = document.getElementById("main-div2");
-
 const tituloShow = document.getElementById("titulo-show");
 const subtituloShow = document.getElementById("subtitulo-show");
 const editoraShow = document.getElementById("editora-show");
@@ -22,9 +21,7 @@ const isbnShow = document.getElementById("isbn-show");
 const urlShow = document.getElementById("url-show");
 const showBooks = document.getElementById("show-books");
 const btnBack = document.getElementById("btn-back");
-
 const btnCad = document.getElementById("btn-cad");
-
 
 let bookArray = [];
 let idLivro = localStorage.length;

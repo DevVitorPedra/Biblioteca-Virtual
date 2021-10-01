@@ -4,7 +4,8 @@
 
 
 
-<img src="Captura de Tela (41).png" alt="imagem do programa">
+<img src="Captura de Tela (41).png" alt="imagem da aba de cadastro, com um formulário e um fundo com vários livros">
+<img src="Captura de Tela (45).png" alt="imagem da aba acervo, com a lista de livros cadastrados em formato de cards expansivos, uma barra de pesquisa e um fundo com vários livros">
 
 > A Biblioteca Virtual é uma Aplicação para cadastro de livros, permitindo consulta posterior.
 
@@ -34,6 +35,7 @@ Nas caixas de texto voce deve inserir as informações descritas, todos os campo
 Na aba do acervo, pode-se rolar a página para achar um livro ou pode usar a pesquisa dinâmica,
 na qual basta por parte do nome do livro, ou o nome completo caso tenha muitos livros
 Quando apagar a pesquisa, todos os livros aparecerão novamente.
+Para ver todas as informações do livro, basta clicar em cima e o card se expande.
 ```
 
 

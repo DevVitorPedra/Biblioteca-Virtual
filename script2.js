@@ -13,10 +13,10 @@ const createBookList = () => {
     let bookArray = [];
     
     let book = localStorage.getItem(livro);
-    console.log(book);
+    
     //transfoma a string do localStorage em array
     bookArray = JSON.parse(book);
-    console.log(bookArray);
+    
     //cria a tag de título
     let newTitle = document.createElement("h1");
     let newTitleNode = document.createTextNode(bookArray[0]);
@@ -116,11 +116,11 @@ searchInput.addEventListener("keyup", (e) => {
     let showTitle = document.getElementsByClassName("book-title");
     //recebe item por item do bookCase
     let str = showTitle[i].innerText.toLowerCase();
-    console.log(typeof str);
+    
 
     //se der match mantém o item, se não add class 'hidden', que add display'none'
     if (str.match(searchString) != searchString) {
-      console.log(showTitle[i].parentElement.parentElement);
+     
       showTitle[i].parentElement.parentElement.classList.add("hidden");
     }
     //caso não tenha nada no input limpa todos 'hiddens'
@@ -130,7 +130,7 @@ searchInput.addEventListener("keyup", (e) => {
   }
 });
 
-createBookList();
+
 
 //função para selecionar um item e mostrar todas as Infos
 const addInfo=(ele)=>{
@@ -141,10 +141,10 @@ const addInfo=(ele)=>{
      hiddenDiv.classList.add('info-margin');
       hiddenDiv.classList.toggle('hidden')
 }
-
+//Função para deletar um item
 const deleteBook = (ele)=>{
   let del = ele.parentElement.getAttribute('name')
-  console.log(del)
+  
 
   let r = confirm('Gostaria mesmo de deletar este livro?')
     if(r==true){
@@ -154,6 +154,7 @@ const deleteBook = (ele)=>{
     
 }
 
+createBookList();
 
 
 

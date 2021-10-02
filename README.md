@@ -58,7 +58,7 @@ Para ver todas as informações do livro, basta clicar em cima e o card se expan
 
 
 
-## 🤝 Obetivo:
+## 🤝 Objetivo:
 
 ```
 Com Objetivo educacional, a ideia era criar uma aplicação para utilizar o local storage como um banco de dados, 
